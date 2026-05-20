@@ -1,0 +1,24 @@
+node_modules/
+dist/
+*.tgz
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+
+# Astro generated types
+.astro/

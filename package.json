@@ -1,0 +1,46 @@
+{
+  "name": "@matthewp/cook-loader",
+  "version": "0.1.1",
+  "description": "Astro Content Layer loader for Cooklang (.cook) recipe files.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "astro",
+    "astro-loader",
+    "content-layer",
+    "cooklang",
+    "recipes"
+  ],
+  "author": "Matthew Phillips",
+  "license": "BSD-3-Clause",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@cooklang/cooklang-ts": "^1.2.7"
+  },
+  "peerDependencies": {
+    "astro": "^6.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  }
+}
