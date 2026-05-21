@@ -1,6 +1,6 @@
 {
   "name": "@matthewp/cook-loader",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Astro Content Layer loader for Cooklang (.cook) recipe files.",
   "type": "module",
   "main": "./dist/index.js",
