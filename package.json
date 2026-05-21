@@ -1,6 +1,6 @@
 {
   "name": "@matthewp/cook-loader",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Astro Content Layer loader for Cooklang (.cook) recipe files.",
   "type": "module",
   "main": "./dist/index.js",
@@ -30,6 +30,10 @@
   ],
   "author": "Matthew Phillips",
   "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewp/cook-loader.git"
+  },
   "publishConfig": {
     "access": "public"
   },
